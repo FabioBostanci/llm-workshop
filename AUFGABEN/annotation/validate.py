@@ -34,6 +34,8 @@ ALLOWED = {
 
 CATEGORICAL_FIELDS = ["homeoffice", "vertragsart", "erfahrungslevel"]
 
+path = Path("/home/jovyan/work/notebooks/LLM-Workshop/llm-workshop/AUFGABEN")
+
 
 # ---------- CSV-Validierung (Phase 2 + 5) ----------
 
