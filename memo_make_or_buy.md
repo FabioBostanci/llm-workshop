@@ -8,7 +8,15 @@ Eine vollständige Eigenleistung ist wirtschaftlich ineffizient; ein blinder Zuk
 
 ### Begründung am κ
 
-Dem Frontier kann man bei Feldern (eher) vertrauen, die einer eindeutigen Logik folgen und einfach zu benennen sind. Bei Gehaltsangaben kann man bspw. vorher Buckets festlegen, das Frontier-Modell kann mit Zahlen dann gut umgehen. Dort ist weniger Spielraum für Interpretationen als bei Angaben zu Homeoffice oder dem Erfahrungslevel.
+Die κ-Werte aus dem Vergleich meine_gold.csv ↔ frontier_gold.csv lauten:
+
+| Feld | κ | Interpretation |
+| :--- | :--- | :--- |
+| `vertragsart` | 1.000 | Fast perfekt — Frontier voll vertrauenswürdig |
+| `homeoffice` | 0.415 | Moderat — mit Vorsicht einsetzen |
+| `erfahrungslevel` | 0.318 | Mäßig — in menschlicher Hand behalten |
+
+Dem Frontier kann man bei Feldern vertrauen, die einer eindeutigen Logik folgen und einfach zu benennen sind (`vertragsart`, κ = 1.000). Bei Gehaltsangaben kann man bspw. vorher Buckets festlegen; das Frontier-Modell kann mit Zahlen gut umgehen. Hier gibt es weniger Spielraum für Interpretation als bei Angaben zu Homeoffice (κ = 0.415) oder dem Erfahrungslevel (κ = 0.318), wo unterschiedliche Lesarten zu systematischen Abweichungen führen.
 
 
 ### Schwellwert - Logik
